@@ -6,9 +6,9 @@ app = Flask(__name__)
 @app.get('/')
 def index():
     me = {
-        'first_name': 'John',
-        'last_name': 'Doe',
-        'hobbies': 'DIY Stuff',
+        'first_name': 'Dustin',
+        'last_name': 'Jensen',
+        'hobbies': 'Learing Python',
         'active': True
     }
     return me
