@@ -8,7 +8,7 @@ def index():
     me = {
         'first_name': 'Dustin',
         'last_name': 'Jensen',
-        'hobbies': 'Learing Python',
+        'hobbies': 'Learing Anything New',
         'active': True
     }
     return me
