@@ -1,4 +1,5 @@
-from flask import Flask
+from flask import Flask, render_template
+
 
 
 app = Flask(__name__)
@@ -16,4 +17,4 @@ def index():
 
 @app.get('/about')
 def about_me():
-    return render_template('about.html')
+    return render_template('index.html')
